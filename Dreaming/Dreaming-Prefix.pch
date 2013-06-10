@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'Dreaming' target in the 'Dreaming' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#import <RestKit/RestKit.h>
+#import "DreamingAPI.h"
+#import "StringUtils.h"
+#import "GlobalDef.h"
+#import "DDLog.h"
+#import "ZAppDelegate.h"
+#import "UIImageView+WebCache.h"
+#import "UserAccount.h"
