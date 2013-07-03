@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import <RestKit/RestKit.h>
 
-#define MAIN_PATH    @"http://121.199.14.114/english/index.php/api" //192.168.1.105:8889
+#define MAIN_PATH    @"http://42.121.117.183/english/index.php/api" //192.168.1.105:8889
 
 #define DICT_PATH    @"http://dict-co.iciba.com/api"
 #define DICTIONARY       @"/dictionary.php"
